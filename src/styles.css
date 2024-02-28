@@ -1,0 +1,124 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, white 50%, rgb(255, 64,64) 50%);
+  position: relative; /* Add this to make positioning relative to body */
+}
+
+.container {
+  width: 400px;
+  padding: 30px;
+  background-color: rgb(36, 18, 18);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: 180px; /* Adjust this value as needed */
+  position: relative; /* Add this to make positioning relative to container */
+}
+
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(255, 64, 64);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: hsl(0, 54%, 36%);
+}
+
+/* Add this style for the overlay text */
+body::before {
+  content: 'Namaste India';
+  font-size: 74px;
+  font-family: 'Times New Roman', Times, serif; /* Change font family */
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+}
+
+body::after {
+  content: 'Enter your personal details and start your journey with us';
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif; /* Change font family */
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+}
+
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+.form-group button {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(255, 64, 64);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Add transition for transform property */
+}
+
+.form-group button:hover {
+  background-color: hsl(0, 54%, 36%);
+  transform: scale(1.05); /* Scale up on hover */
+}
